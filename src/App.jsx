@@ -139,9 +139,9 @@ function App() {
         <hr />
         <h1 className='text-center text-xl font-extrabold text-black my-4'>Your Items</h1>
         <div className="selectors flex justify-around">
-          <div className='underline p-2' onClick={handleAllItems}>All Items</div>
-          <div className="tasks underline p-2" onClick={handleFilterItemsRemaining}>Items Remaining</div>
-          <div className='underline p-2' onClick={handleFilterItemsCompleted}>Items Purchased</div>
+          <div className='underline p-2 cursor-pointer' onClick={handleAllItems}>All Items</div>
+          <div className="tasks underline p-2 cursor-pointer" onClick={handleFilterItemsRemaining}>Items Remaining</div>
+          <div className='underline p-2 cursor-pointer' onClick={handleFilterItemsCompleted}>Items Purchased</div>
         </div>
         <ItemContainer items={selectedItems} handleComplete={handleIsComplete} onDelete={handleDelete} onEdit={handleEdit} />
       </div>
