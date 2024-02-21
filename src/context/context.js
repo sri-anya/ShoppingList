@@ -1,3 +1,3 @@
 import { createContext } from "react";
 
-export const itemsContext = createContext(null)
+export const itemDeletedContext = createContext(null)
