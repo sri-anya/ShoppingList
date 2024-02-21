@@ -11,7 +11,7 @@ F- ilter Items: Toggle between completed/purchased items and items remaining in 
 
 Check out the live demo of the Shopping List React App:
 
-[Live Demo](https://your-demo-url.com)
+[Live Demo](https://basicshoppinglistreact.netlify.app/)
 
 ## Technologies Used
 - React: The front-end framework for building the user interface.
@@ -20,13 +20,12 @@ Check out the live demo of the Shopping List React App:
 1. Clone the repository:
 
 `
-git clone https://github.com/your-username/shopping-list-react-app.git
+git clone https://github.com/sri-anya/ShoppingList.git
 `
 
 2. Install dependencies:
 
 `
-cd shopping-list-react-app
 npm install
 `
 
